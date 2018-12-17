@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2016 Siddharth Bhalgami <siddharth.bhalgami@techreceptives.com>
+     License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
+<template id="template" xml:space="preserve">
+
+    <t t-extend="FieldBinaryImage">
+        <t t-jquery=".o_select_file_button" t-operation="after">
+            <span class="fa fa-eye o_form_binary_file_web_cam" title="WebCam"/>
+        </t>
+    </t>
+
+    <div t-name="WebCamDialog" id="WebCamModal">
+        <div class="container-fluid">
+            <div class="row" >
+                <div>
+                    <div class="live_webcam_outer_div">
+                        <div id="live_webcam"/>
+                    </div>
+                    <div class="webcam_result_outer_div">
+                        <div id="webcam_result"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</template>
