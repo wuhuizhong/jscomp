@@ -1,0 +1,32 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* app_web_enterprise
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-16 04:55+0000\n"
+"PO-Revision-Date: 2018-12-16 12:57+0800\n"
+"Last-Translator: John Lin <linyinhuan@139.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: app_web_enterprise
+#. openerp-web
+#: code:addons/app_web_enterprise/static/src/xml/base.xml:6
+#, python-format
+msgid "Logo"
+msgstr "Logo"
+
+#. module: app_web_enterprise
+#. openerp-web
+#: code:addons/app_web_enterprise/static/src/xml/base.xml:12
+#, python-format
+msgid "dropdown-toggle o_menu_header_lvl_1"
+msgstr "dropdown-toggle o_menu_header_lvl_1"
