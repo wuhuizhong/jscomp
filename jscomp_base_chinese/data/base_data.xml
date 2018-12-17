@@ -4,12 +4,12 @@
         <function name="install_lang" model="res.lang"/>
 
         <record id="base.main_partner" model="res.partner" context="{'default_is_company': True}">
-            <field name="name">基盛休闲</field>
+            <field name="name">宁波基盛休闲用品有限公司</field>
         </record>
 
         <!-- Basic Company  -->
         <record id="base.main_company" model="res.company">
-            <field name="name">基盛休闲</field>
+            <field name="name">宁波基盛休闲用品有限公司</field>
         </record>
 
         <record model="res.partner" id="base.partner_root">
