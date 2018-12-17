@@ -1,0 +1,155 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* jscomp_product_multi_uom_ratio
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-12 04:38+0000\n"
+"PO-Revision-Date: 2018-12-12 12:40+0800\n"
+"Last-Translator: John Lin <linyinhuan@139.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model_terms:ir.ui.view,arch_db:jscomp_product_multi_uom_ratio.view_wiz_uom_uom
+msgid ""
+"<b>Main UoM</b>is the main reference UoM.<br/>\n"
+"              <b>Additional UoMs:</b>Please add them in below table.<br/>\n"
+"              <br/>\n"
+"              <br/>"
+msgstr ""
+"<b>主计量单位</b>是主要引用的计量单位。<br/>\n"
+"              <b>辅助计量单位:</b>请在下表中添加。<br/>\n"
+"              <br/>\n"
+"              <br/>"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model_terms:ir.ui.view,arch_db:jscomp_product_multi_uom_ratio.view_wiz_uom_uom
+msgid "Add"
+msgstr "添加"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.actions.act_window,name:jscomp_product_multi_uom_ratio.action_add_uoms
+#: model_terms:ir.ui.view,arch_db:jscomp_product_multi_uom_ratio.jscomp_uom_uom
+msgid "Add UoMs"
+msgstr "添加计量单位"
+
+#. module: jscomp_product_multi_uom_ratio
+#: selection:wiz.uom.uom.line,utype:0
+msgid "Bigger"
+msgstr "更大"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model_terms:ir.ui.view,arch_db:jscomp_product_multi_uom_ratio.view_wiz_uom_uom
+msgid "Cancel"
+msgstr "取消"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom__create_uid
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom_line__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom__create_date
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom_line__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom__display_name
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom_line__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom__id
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom____last_update
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom_line____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom__write_uid
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom_line__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom__write_date
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom_line__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom__ref_uom
+#: model_terms:ir.ui.view,arch_db:jscomp_product_multi_uom_ratio.view_wiz_uom_uom
+msgid "Main UoM"
+msgstr "主计量单位"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom_line__uom
+msgid "Name"
+msgstr "名称"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom__product_id
+msgid "Product"
+msgstr "产品"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom_line__qty
+msgid "Ratio"
+msgstr "转换率"
+
+#. module: jscomp_product_multi_uom_ratio
+#: selection:wiz.uom.uom.line,utype:0
+msgid "Smaller"
+msgstr "较小"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom_line__utype
+msgid "Type"
+msgstr "类型"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model_terms:ir.ui.view,arch_db:jscomp_product_multi_uom_ratio.view_wiz_uom_uom
+msgid "Unit of Measures"
+msgstr "计量单位"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom__line_ids
+msgid "UoMs"
+msgstr "计量单位"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model_terms:ir.ui.view,arch_db:jscomp_product_multi_uom_ratio.view_wiz_uom_uom
+msgid "or"
+msgstr "或"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model.fields,field_description:jscomp_product_multi_uom_ratio.field_wiz_uom_uom_line__wiz_id
+msgid "uom_uom"
+msgstr "uom_uom"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model,name:jscomp_product_multi_uom_ratio.model_wiz_uom_uom
+msgid "wiz.uom.uom"
+msgstr "wiz.uom.uom"
+
+#. module: jscomp_product_multi_uom_ratio
+#: model:ir.model,name:jscomp_product_multi_uom_ratio.model_wiz_uom_uom_line
+msgid "wiz.uom.uom.line"
+msgstr "wiz.uom.uom.line"
