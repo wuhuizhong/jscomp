@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="utf-8"?>
+<odoo>
+   <template id="assets_backend" name="inspur_preview_assets_backend" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/inspur_print/static/src/js/print_preview_template.js"></script>
+            <link href="/reportbo_print/static/src/dist/ext/spectrum.css" rel="stylesheet" type="text/css"/>
+            <link href="/reportbo_print/static/src/dist/reportbro.css" rel="stylesheet" type="text/css"/>
+            <link href="/reportbo_print/static/font/font.css" rel="stylesheet" type="text/css"/>
+            <script src="/reportbo_print/static/src/dist/ext/spectrum.js"></script>
+            <script src="/reportbo_print/static/src/dist/ext/autosize.js"></script>
+            <script src="/reportbo_print/static/src/dist/ext/JsBarcode.all.min.js"></script>
+            <script src="/reportbo_print/static/src/dist/reportbro.js"></script>
+        </xpath>
+    </template>
+</odoo>

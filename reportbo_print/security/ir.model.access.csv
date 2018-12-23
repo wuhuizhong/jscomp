@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_inspur_print_print_design_bill,inspur_print.print_design_bill,inspur_print.model_print_design_bill,base.group_user,1,1,1,1
+access_inspur_print_print_design_bill2model,inspur_print.print_design_bill2model,inspur_print.model_print_design_bill2model,base.group_user,1,1,1,1
+access_inspur_print_print_design_define,inspur_print.print_design_define,inspur_print.model_print_design_define,base.group_user,1,1,1,1
+access_inspur_print_print_design_field,inspur_print.print_design_field,inspur_print.model_print_design_field,base.group_user,1,1,1,1
