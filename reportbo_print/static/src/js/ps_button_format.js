@@ -49,7 +49,7 @@ odoo.define('ps_print_format.button', function (require){
                  check_id.push(id);
                  var ctx = state.context;
                  if(check_id == null||check_id == ''){
-                     alert("请选择要打印单据!")
+                     alert("请选择要打印单据!");
                      return
                  }
                  check_id[check_id.length] = modelName;
@@ -102,7 +102,7 @@ odoo.define('ps_print_format.button', function (require){
         renderButtons: function () {
             this._super.apply(this, arguments);
             ImportControllerMixin._bindImport.call(this);
-            console.log(this.modelName)
+            console.log(this.modelName);
             // if(this.modelName!=="print.design.define"){
             //     this.$buttons.find(".o_button_ps_print").css("display","none");
             // }

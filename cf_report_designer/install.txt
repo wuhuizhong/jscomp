@@ -1,0 +1,13 @@
+﻿
+
+本模块依赖 pycrypto 模块，Ubuntu/Docker中按下面方法安装，其他OS请自行搜索解决
+------------------
+
+以root用户进入容器！！！！
+docker exec -ti -u root <容器名> /bin/bash
+************************************
+
+安装pycryptodome:
+pip3 install pycryptodome
+或
+python3 -m pip install pycryptodome

@@ -66,7 +66,7 @@ ListRenderer.include({
     	var $header = this._super(isGrouped);
     	if (this.hasSelectors) {
     		$header.find("th.o_list_record_selector").before($('<th class="o_list_row_number_header">').html('#'));
-    		var advance_search = $header.find("tr.advance_search_row")
+    		var advance_search = $header.find("tr.advance_search_row");
     		if(advance_search.length && advance_search.find('td.o_list_row_number_header').length==0){    			
     			advance_search.prepend($('<td class="o_list_row_number_header">').html('&nbsp;'));
     		}
@@ -82,7 +82,7 @@ ListRenderer.include({
     _renderRow: function (record) {
     	var $row = this._super(record);
     	if (this.mode !== 'edit' && this.state.groupedBy.length==0){
-	    	var index = this.state.data.findIndex(function(e){return record.id===e.id})
+	    	var index = this.state.data.findIndex(function(e){return record.id===e.id});
 	    	if (index!==-1){
 	    		$row.prepend($('<th>').html(index+1));
 	    	}

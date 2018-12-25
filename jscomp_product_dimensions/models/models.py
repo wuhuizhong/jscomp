@@ -10,6 +10,9 @@ class ProductTemplate(models.Model):
 
     attr_draw_no = fields.Char(string="Draw No.")
     attr_spec = fields.Char(string="Specification")
+    attr_color = fields.Char(string="Color")
+    attr_material = fields.Char(string="Material")
+    attr_mold = fields.Char(string="Mold")
     attr_diameter = fields.Float(string="Diameter (mm)", digits=dp.get_precision('Product Unit of Measure'),
                                  help="In mm", default=0.0)
     attr_thickness = fields.Float(string="Thickness(mm)", digits=dp.get_precision('Product Unit of Measure'),
@@ -28,9 +31,9 @@ class ProductTemplate(models.Model):
 
     @api.multi
     def name_get(self):
-        return [(template.id, '%s%s%s' % (
+        return [(template.id, '%s%s%s%s%s%s' % (
             (template.default_code and '[%s] ' % template.default_code or ''), template.name,
-            (template.attr_spec and '%s' % template.attr_spec or '')))
+            (template.attr_spec and '%s' % template.attr_spec or ''),(template.attr_color and '(%s)' % template.attr_color or ''),(template.attr_material and '%s' % template.attr_material or ''),(template.attr_draw_no and '{%s}' % template.attr_draw_no or '')))
                 for template in self]
 
 
@@ -38,6 +41,8 @@ class PurchaseOrderLine(models.Model):
     _inherit = 'purchase.order.line'
     attr_draw_no = fields.Char(related="product_id.attr_draw_no", readonly=1)
     attr_spec = fields.Char(related="product_id.attr_spec", readonly=1)
+    attr_color = fields.Char(related="product_id.attr_color", readonly=1)
+    attr_material = fields.Char(related="product_id.attr_material", readonly=1)
     attr_diameter = fields.Float(related="product_id.attr_diameter", readonly=1)
     attr_thickness = fields.Float(related="product_id.attr_thickness", readonly=1)
     attr_length = fields.Float(related="product_id.attr_length", readonly=1)
@@ -57,6 +62,8 @@ class SaleOrderLine(models.Model):
 
     attr_draw_no = fields.Char(related="product_id.attr_draw_no", readonly=1)
     attr_spec = fields.Char(related="product_id.attr_spec", readonly=1)
+    attr_color = fields.Char(related="product_id.attr_color", readonly=1)
+    attr_material = fields.Char(related="product_id.attr_material", readonly=1)
     attr_diameter = fields.Float(related="product_id.attr_diameter", readonly=1)
     attr_thickness = fields.Float(related="product_id.attr_thickness", readonly=1)
     attr_length = fields.Float(related="product_id.attr_length", readonly=1)
@@ -80,6 +87,15 @@ class ProductProduct(models.Model):
             code = self._context.get('display_default_code', True) and d.get('default_code', False) or False
             if code:
                 name = '[%s] %s' % (code, name)
+            clr = d.get('clr',False) or False
+            if clr:
+                name = '%s(%s)' % (name, clr)
+            material = d.get('material', False) or False
+            if material:
+                name = '%s%s' % (name, material)
+            draw_no = d.get('draw_no', False) or False
+            if draw_no:
+                name = '%s{%s}' % (name, draw_no)
             return (d['id'], name)
 
         partner_id = self._context.get('partner_id')
@@ -115,6 +131,9 @@ class ProductProduct(models.Model):
                         'id': product.id,
                         'name': seller_variant or name,
                         'spec': product.attr_spec or '',
+                        'clr': product.attr_color or '',
+                        'material': product.attr_material or '',
+                        'draw_no' : product.attr_draw_no or '',
                         'default_code': s.product_code or product.default_code,
                     }
                     temp = _name_get(mydict)
@@ -125,6 +144,9 @@ class ProductProduct(models.Model):
                     'id': product.id,
                     'name': name,
                     'spec': product.attr_spec or '',
+                    'clr': product.attr_color or '',
+                    'material': product.attr_material or '',
+                    'draw_no': product.attr_draw_no or '',
                     'default_code': product.default_code,
                 }
                 result.append(_name_get(mydict))

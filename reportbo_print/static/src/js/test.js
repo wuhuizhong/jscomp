@@ -30,14 +30,14 @@ odoo.define('test_template',function(require){
                 oA.style.display="none";
                 oA.setAttribute("class","mymodelname");
                 newNode.setAttribute("type","checkbox");
-                newNode.setAttribute("class","myval")
+                newNode.setAttribute("class","myval");
                 newNode.value=arr2[i].name;
                 oP.appendChild(newNode);
                 oP.appendChild(myText);
                 oP.appendChild(oSpan);
                 oP.appendChild(oA);
                 $el[0].appendChild(oP);
-            };
+            }
             // console.log($el)
             $el[2].children[0].onclick=function(){
                 var obj=document.getElementsByClassName("myval");
@@ -64,7 +64,7 @@ odoo.define('test_template',function(require){
                     async: false,
                     contentType: "application/json",
                     success: function (data) {
-                        var report = data['result']['report']
+                        var report = data['result']['report'];
                         var fields_data = data['result']['data'];
                         console.log(report);
                         console.log(fields_data);

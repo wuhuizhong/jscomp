@@ -10,7 +10,7 @@ odoo.define('design_template',function(require){
             this.params=params;
             var data = params.params.data;
             var id = params.params.id;
-            var uuu = JSON.parse(data)
+            var uuu = JSON.parse(data);
             this._rpc({route:'/print_design_server'}).then(function (stats) {
                 $(document).ready(function() {
                         function saveReport() {

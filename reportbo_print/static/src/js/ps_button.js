@@ -58,7 +58,7 @@ odoo.define('ps_print.button', function (require){
                     async: false,
                     contentType: "application/json",
                     success: function (data) {
-                        var report = data['result']['report']
+                        var report = data['result']['report'];
                         var fields_data = data['result']['data'];
                         console.log(report);
                         console.log(fields_data);
@@ -114,7 +114,7 @@ odoo.define('ps_print.button', function (require){
         renderButtons: function () {
             this._super.apply(this, arguments);
             ImportControllerMixin._bindImport.call(this);
-            console.log(this.modelName)
+            console.log(this.modelName);
             // if(this.modelName!=="print.design.define"){
             //     this.$buttons.find(".o_button_ps_print").css("display","none");
             // }

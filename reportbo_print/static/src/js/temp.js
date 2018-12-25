@@ -29,14 +29,14 @@ odoo.define('test_template',function(require){
                 oA.style.display="none";
                 oA.setAttribute("class","mymodelname");
                 newNode.setAttribute("type","checkbox");
-                newNode.setAttribute("class","o_checkbox")
+                newNode.setAttribute("class","o_checkbox");
                 newNode.value=arr2[i].name;
                 oP.appendChild(newNode);
                 oP.appendChild(myText);
                 oP.appendChild(oSpan);
                 oP.appendChild(oA);
                 $el[0].appendChild(oP);
-            };
+            }
             $el[2].children[0].onclick=function(){
                 var obj=document.getElementsByClassName("o_checkbox");
                 var oid=document.getElementsByClassName("myid");
@@ -54,7 +54,7 @@ odoo.define('test_template',function(require){
                 var modelName = omodelname[0].innerText;
 
                 var bills = billId.split(',');
-                var allKey = []
+                var allKey = [];
 
                 $.ajax({
                     url: '/print_format_data',
@@ -66,7 +66,7 @@ odoo.define('test_template',function(require){
                     success: function (data) {
                         // 获取后台传递的所有单据数据,前台循环遍历向Reportbro服务发送打印请求。这种方式不好。
                          for ( var i = 0; i <data['result'].length; i++){
-                            var report = data['result'][i]['report']
+                            var report = data['result'][i]['report'];
                             var fields_data = data['result'][i]['data'];
                             $.ajax({
                                 //url: 'https://www.reportbro.com/report/run',
@@ -89,8 +89,8 @@ odoo.define('test_template',function(require){
                                     alert('服务器响应失败！');
                                 }
                             });
-                         };
-                         window.open('/run?key=' + allKey.toString());
+                         }
+                        window.open('/run?key=' + allKey.toString());
                          // var s = allKey.toString()
                          // console.log(s);
                          // $.ajax({

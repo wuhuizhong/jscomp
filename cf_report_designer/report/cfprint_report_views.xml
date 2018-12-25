@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?>b'<odoo>\n    <data>\n        <report file="cf_report_designer.rpt_sale_order" id="report_sale_order" model="sale.order" name="cf_report_designer.rpt_sale_order" report_type="qweb-html" string="\xe9\x94\x80\xe5\x94\xae\xe8\xae\xa2\xe5\x8d\x95\xe6\x8a\xa5\xe8\xa1\xa8" /></data>\n</odoo>'

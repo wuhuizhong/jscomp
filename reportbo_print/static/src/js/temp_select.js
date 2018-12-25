@@ -10,11 +10,11 @@ $(".print_row").click(function(){
     var num=$(this).index();
     $(".print_row").eq(num).find("input").attr("checked","checked");
     $(".print_row").eq(num).siblings().find("input").removeAttr("checked","checked");
-})
+});
 // 开始打印、关闭打印框
 $("#btn_print").click(function(){
     window.opener=null;
     window.open('','_self');
     // Author:caotifu
     $("button[class=close]").click();
-})
+});

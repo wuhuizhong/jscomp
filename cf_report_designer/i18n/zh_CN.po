@@ -1,0 +1,568 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* cf_report_designer
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-30 02:00+0000\n"
+"PO-Revision-Date: 2018-11-30 10:03+0800\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_cfprint_license__create_uid
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__create_uid
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_cfprint_license__create_date
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__create_date
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_form
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_list
+msgid "Define of Report"
+msgstr "报表定义"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_form
+msgid "Design"
+msgstr "设计模板"
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_cfprint_license__display_name
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__display_name
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_form
+msgid "Fields"
+msgstr "字段"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_field_form
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_field_form_relation
+msgid "Fields of Related Model"
+msgstr "关联表字段"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_field_form
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_field_list
+msgid "Fields of Report"
+msgstr "报表字段"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_form
+msgid "Generate"
+msgstr "生成报表定义"
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_cfprint_license__id
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__id
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__id
+msgid "ID"
+msgstr ""
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_form
+msgid "ID of Report(Only letters, numbers and underscores are allowed)"
+msgstr "报表ID（只允许英文字母、数字和下划线）"
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_cfprint_license____last_update
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define____last_update
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_cfprint_license__write_uid
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__write_uid
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_cfprint_license__write_date
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__write_date
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: cf_report_designer
+#: model:ir.ui.menu,name:cf_report_designer.menu_cf_cfprint_license
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_cfprint_license_form
+msgid "License"
+msgstr "许可证"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_form
+msgid "Model of Report"
+msgstr "报表数据表(模型)"
+
+#. module: cf_report_designer
+#: model:ir.model,name:cf_report_designer.model_ir_model
+msgid "Models"
+msgstr "模型"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_form
+msgid "Name of Report"
+msgstr "报表名称"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_cfprint_license_form
+msgid "QQ群：583804904"
+msgstr ""
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_cfprint_license_form
+msgid "QQ：360026606"
+msgstr ""
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_form
+msgid "Remove Fields"
+msgstr "删除字段"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_field_form
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_field_form_relation
+msgid "Remove Related Model Fields"
+msgstr "删除关联表字段"
+
+#. module: cf_report_designer
+#: model:ir.model,name:cf_report_designer.model_ir_actions_report
+msgid "Report Action"
+msgstr "报告动作"
+
+#. module: cf_report_designer
+#: model:ir.ui.menu,name:cf_report_designer.menu_cf_report_define
+msgid "Report Define"
+msgstr "定义报表"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_form
+msgid "Retrieve Fields"
+msgstr "获取字段"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_field_form
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_field_form_relation
+msgid "Retrieve Sub Fields"
+msgstr "获取关联表字段"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_form
+msgid "Select template will to use"
+msgstr "选择要使用的报表模板"
+
+#. module: cf_report_designer
+#: model:ir.model,name:cf_report_designer.model_ir_ui_view
+msgid "View"
+msgstr "视图"
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_report_define_field_list
+msgid "View Related Model Fields"
+msgstr "查看关联表"
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/cf_render.py:310
+#: code:addons/cf_report_designer/models/backup/cf_render_bak.py:305
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:785
+#: code:addons/cf_report_designer/models/data_model_all.py:818
+#, python-format
+msgid "上传康虎云报表模板"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_cf_report_define_field__related_field_id
+msgid "与关联表关联的字段(related_external_field_ids)"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_cf_report_define_field__related_external_field_ids
+msgid "与当前表相关联的表字段"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__use_client_templ
+msgid "使用客户端模板"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__related_field_id
+msgid "关联字段"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_cf_report_define_field__related_field_model_id
+msgid "关联字段所在的model。当前字段为One2many，Many2many，Many2one时有值。"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_cf_report_define_field__related_field_model_name
+msgid "关联字段所在的model名称"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__related_field_model_name
+msgid "关联数据表名称"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__related_external_field_ids
+msgid "关联数据表字段"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__related_field_model_id
+msgid "关联数据表（模型）"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_cfprint_license__note
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__note
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__note
+msgid "备注"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_ir_actions_report__cf_report_define_id
+msgid "如果是康虎云报表，则保存对应的报表定义。"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_cf_report_define__client_templ_name
+msgid "如果设置了使用客户端模板，则在此录入客户端模板路径和文件名"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__field_ids
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__field_id
+msgid "字段"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__name
+msgid "字段名称"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_cf_report_define_field__model_id
+msgid "字段所在的model"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_cf_report_define_field__report_id
+msgid "字段所在的报表定义"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__ttype
+msgid "字段类型"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__field_description
+msgid "字段说明"
+msgstr ""
+
+#. module: cf_report_designer
+#: selection:cf.report.define,state:0
+msgid "完成报表定义"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__client_templ_name
+msgid "客户端模板文件名"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.actions.act_window,name:cf_report_designer.act_cf_report_define_win
+msgid "康虎云报表定义"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.actions.act_window,name:cf_report_designer.act_cf_cfprint_license_win
+msgid "康虎云报表授权许可"
+msgstr ""
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_cfprint_license_form
+msgid "康虎软件工作室联系方式："
+msgstr ""
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_cfprint_license_form
+msgid "微信：360026606"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__company_id
+msgid "所属公司"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/cf_render.py:327
+#: code:addons/cf_report_designer/models/backup/cf_render_bak.py:322
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:800
+#: code:addons/cf_report_designer/models/data_model_all.py:833
+#, python-format
+msgid "打印"
+msgstr ""
+
+#. module: cf_report_designer
+#: sql_constraint:cf.report.define.field:0
+msgid "报表+表+字段必须唯一!"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__name
+msgid "报表ID"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__comment
+msgid "报表中文名称"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/data_model.py:86
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:248
+#: code:addons/cf_report_designer/models/data_model_all.py:248
+#: sql_constraint:cf.report.define:0
+#, python-format
+msgid "报表名称必须唯一!"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model,name:cf_report_designer.model_cf_report_define_field
+msgid "报表字段"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model,name:cf_report_designer.model_cf_report_define
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__report_id
+#: model:ir.model.fields,field_description:cf_report_designer.field_ir_actions_report__cf_report_define_id
+msgid "报表定义"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_cf_report_define__model_id
+msgid "报表对应的数据表(model)"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__template_id
+msgid "报表模板"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/cf_render.py:179
+#: code:addons/cf_report_designer/models/backup/cf_render_bak.py:174
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:654
+#: code:addons/cf_report_designer/models/data_model_all.py:687
+#, python-format
+msgid "指定的报表模板未定义或模板无内容，请先设计模板并更新到模板记录表。</h3>"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_cf_cfprint_license__license
+msgid "授权许可证文件，下载后改名为cfprint.lic放到客户端cfprint目录下。"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__model_id
+msgid "数据表(model)"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__model_id
+msgid "数据表(模型)"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__open_print
+msgid "是否弹出打印"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_cf_cfprint_license__mcode
+msgid "服务器机器码"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/data_model_all.py:484
+#, python-format
+msgid "未找到关联字段对应的表（%s），无法获取关联表字段！"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/data_model.py:308
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:470
+#, python-format
+msgid "未找到关联字段对应的表（%s），无法获取子表字段！"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/cf_render.py:266
+#: code:addons/cf_report_designer/models/backup/cf_render_bak.py:261
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:741
+#: code:addons/cf_report_designer/models/data_model_all.py:774
+#, python-format
+msgid "未找到报表（%s）定义，可能是报表未定义或定义未生效，如果使用康虎云报表，请在报表定义中重新生成一下报表定义！"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/cf_render.py:175
+#: code:addons/cf_report_designer/models/backup/cf_render_bak.py:170
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:650
+#: code:addons/cf_report_designer/models/data_model_all.py:683
+#, python-format
+msgid "未指定要打印的报表模板，请先指定报表模板。"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_cfprint_license__mcode
+msgid "机器码"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define_field__model_name
+msgid "模型名称"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/cf_render.py:268
+#: code:addons/cf_report_designer/models/backup/cf_render.py:330
+#: code:addons/cf_report_designer/models/backup/cf_render_bak.py:263
+#: code:addons/cf_report_designer/models/backup/cf_render_bak.py:325
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:743
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:807
+#: code:addons/cf_report_designer/models/data_model_all.py:776
+#: code:addons/cf_report_designer/models/data_model_all.py:840
+#, python-format
+msgid "正在打印，请稍候...<br/><br/>如果打印机未输出报表，请检查康虎云报表是否已启动！<br/><br/><a href=\"cfprint://open\">启动康虎云报表</a>"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/cf_render.py:338
+#: code:addons/cf_report_designer/models/backup/cf_render_bak.py:333
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:815
+#: code:addons/cf_report_designer/models/data_model_all.py:848
+#, python-format
+msgid "没有可以%s数据。"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/cf_render.py:277
+#: code:addons/cf_report_designer/models/backup/cf_render_bak.py:272
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:752
+#: code:addons/cf_report_designer/models/data_model_all.py:785
+#, python-format
+msgid "没有可以打印数据。"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_report_define__state
+msgid "状态"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/cf_render.py:111
+#: code:addons/cf_report_designer/models/backup/cf_render_bak.py:107
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:587
+#: code:addons/cf_report_designer/models/data_model_all.py:620
+#, python-format
+msgid "生成康虎云报表打印数据出错。model: %s, field: %s, Error: %s"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_cf_report_define__name
+msgid "用一确定报表的唯一ID，只允许英文、数字和下划线。"
+msgstr ""
+
+#. module: cf_report_designer
+#: selection:cf.report.define,state:0
+msgid "草稿"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_cf_report_define__field_ids
+msgid "要在报表模板中使用的字段信息"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,field_description:cf_report_designer.field_cf_cfprint_license__license
+msgid "许可证"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model,name:cf_report_designer.model_cf_cfprint_license
+msgid "许可证信息"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/cf_render.py:327
+#: code:addons/cf_report_designer/models/backup/cf_render_bak.py:322
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:800
+#: code:addons/cf_report_designer/models/data_model_all.py:833
+#, python-format
+msgid "设计"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.model.fields,help:cf_report_designer.field_cf_report_define__template_id
+msgid ""
+"该报表使用的打印模板。\n"
+"模板如果尚未设计，可以先创建一个模板定义，待生成数据并设计报表模板后再上传到模板库。"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/data_model.py:95
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:257
+#: code:addons/cf_report_designer/models/data_model_all.py:257
+#, python-format
+msgid "请先指定报表ID！"
+msgstr ""
+
+#. module: cf_report_designer
+#: code:addons/cf_report_designer/models/backup/cf_render.py:164
+#: code:addons/cf_report_designer/models/backup/cf_render_bak.py:159
+#: code:addons/cf_report_designer/models/backup/data_model_all.py:639
+#: code:addons/cf_report_designer/models/data_model_all.py:672
+#, python-format
+msgid ""
+"请在康虎云报表设计器设计报表。<br/>\n"
+"            如果报表设计器未打开，请检查康虎云报表是否已启动！<br/><br/><br/>\n"
+"            模板设计完成后，请在odoo菜单“康虎云报表”--&gt;“模板”菜单中，打开模板记录上传或更新模板！<br/><br/>\n"
+"            <a href=\"cfprint://open\">启动康虎云报表</a>\n"
+"            "
+msgstr ""
+
+#. module: cf_report_designer
+#: model_terms:ir.ui.view,arch_db:cf_report_designer.cf_cfprint_license_form
+msgid "请把以上机器码请交给康虎软件工作室以获取授权许可证！"
+msgstr ""
+
+#. module: cf_report_designer
+#: model:ir.actions.report,name:cf_report_designer.action_report_sale_order
+msgid "销售订单测试[CFPrint]"
+msgstr ""
