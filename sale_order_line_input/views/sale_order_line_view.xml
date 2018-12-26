@@ -10,6 +10,8 @@
             <tree string="Sales Orders Lines"
                   decoration-info="invoice_status=='to invoice'" decoration-warning="state=='draft'" decoration-muted="state=='cancel'" decoration-success="state=='done'"
                   editable="top" create="true">
+                <field name="qty_delivered_manual" invisible="1"/>
+                <field name="qty_delivered_method" invisible="1"/>
                 <field name="order_id" string="Order"
                        required="0" placeholder="New"
                        domain="[('state', 'not in', ('done', 'cancel'))]"
@@ -27,15 +29,15 @@
                        force_save="1"
                        context="{'partner_id':order_partner_id, 'quantity':product_uom_qty, 'pricelist':pricelist_id, 'uom':product_uom, 'company_id': company_id}"
                 />
-                <field name="layout_category_id" groups="sale.group_sale_layout"/>
+
                 <field name="name"
                        attrs="{'readonly': [('state', 'in', ('done', 'cancel'))]}"/>
                 <field name="product_uom_qty" sum="Ordered"
                        string="Ordered Qty"
                        context="{'partner_id':order_partner_id, 'quantity':product_uom_qty, 'pricelist':pricelist_id, 'uom':product_uom, 'company_id': company_id}"
                        attrs="{'readonly': [('state', 'in', ('done', 'cancel'))]}"/>
-                <field name="qty_delivered" sum="Delivered"
-                       attrs="{'readonly': [('qty_delivered_updateable', '=', False)]}"/>
+                <field name="qty_delivered" sum="Delivered" attrs="{'readonly': [('qty_delivered_method', '!=', 'manual')]}"/>
+
                 <field name="qty_invoiced" sum="Invoiced"/>
                 <field name="qty_to_invoice" sum="To Invoice"/>
                 <field name="product_uom"
@@ -56,7 +58,7 @@
                 <field name="price_subtotal" sum="Total" widget="monetary" groups="sale.group_show_price_subtotal"/>
                 <field name="price_total" widget="monetary" groups="sale.group_show_price_total"/>
                 <field name="product_updatable" invisible="1"/>
-                <field name="qty_delivered_updateable" invisible="1"/>
+
                 <field name="state" invisible="1"/>
                 <field name="invoice_status" invisible="1"/>
                 <field name="customer_lead" invisible="1"/>

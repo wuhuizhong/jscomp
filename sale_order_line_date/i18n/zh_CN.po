@@ -22,17 +22,17 @@ msgstr ""
 #. module: sale_order_line_date
 #: model:ir.model,name:sale_order_line_date.model_sale_order
 msgid "Quotation"
-msgstr ""
+msgstr "报价"
 
 #. module: sale_order_line_date
 #: model:ir.model.fields,field_description:sale_order_line_date.field_sale_order_line_requested_date
 msgid "Requested Date"
-msgstr ""
+msgstr "交期"
 
 #. module: sale_order_line_date
 #: model:ir.model,name:sale_order_line_date.model_sale_order_line
 msgid "Sales Order Line"
-msgstr ""
+msgstr "销售订单明细"
 
 #~ msgid "Sales Order"
 #~ msgstr "销售订单"
