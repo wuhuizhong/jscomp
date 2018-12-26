@@ -1,0 +1,148 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_brand
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: John Lin <linyinhuan@139.com>\n"
+"Language: zh_CN\n"
+
+#. module: product_brand
+#: model:ir.actions.act_window,name:product_brand.action_product_brand
+#: model:ir.model.fields,field_description:product_brand.field_account_invoice_report_product_brand_id
+#: model:ir.model.fields,field_description:product_brand.field_product_product_product_brand_id
+#: model:ir.model.fields,field_description:product_brand.field_product_template_product_brand_id
+#: model:ir.model.fields,field_description:product_brand.field_sale_report_product_brand_id
+#: model:ir.ui.view,arch_db:product_brand.product_template_form_brand_add
+#: model:ir.ui.view,arch_db:product_brand.view_account_invoice_report_search
+#: model:ir.ui.view,arch_db:product_brand.view_order_product_search
+#: model:ir.ui.view,arch_db:product_brand.view_product_template_search_brand
+msgid "Brand"
+msgstr "品牌"
+
+#. module: product_brand
+#: model:ir.model.fields,field_description:product_brand.field_product_brand_name
+#: model:ir.ui.view,arch_db:product_brand.view_product_brand_form
+msgid "Brand Name"
+msgstr "品牌名称"
+
+#. module: product_brand
+#: model:ir.actions.act_window,name:product_brand.action_open_brand_products
+#: model:ir.model.fields,field_description:product_brand.field_product_brand_product_ids
+msgid "Brand Products"
+msgstr "品牌产品"
+
+#. module: product_brand
+#: model:ir.model.fields,field_description:product_brand.field_product_brand_create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: product_brand
+#: model:ir.model.fields,field_description:product_brand.field_product_brand_create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: product_brand
+#: model:ir.model.fields,field_description:product_brand.field_product_brand_description
+#: model:ir.ui.view,arch_db:product_brand.view_product_brand_form
+msgid "Description"
+msgstr "说明"
+
+#. module: product_brand
+#: model:ir.model.fields,field_description:product_brand.field_product_brand_display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: product_brand
+#: model:ir.model.fields,field_description:product_brand.field_product_brand_id
+msgid "ID"
+msgstr "ID"
+
+#. module: product_brand
+#: model:ir.model,name:product_brand.model_account_invoice_report
+msgid "Invoices Statistics"
+msgstr "发票统计"
+
+#. module: product_brand
+#: model:ir.model.fields,field_description:product_brand.field_product_brand___last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: product_brand
+#: model:ir.model.fields,field_description:product_brand.field_product_brand_write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: product_brand
+#: model:ir.model.fields,field_description:product_brand.field_product_brand_write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: product_brand
+#: model:ir.model.fields,field_description:product_brand.field_product_brand_logo
+msgid "Logo File"
+msgstr "Logo文件"
+
+#. module: product_brand
+#: model:ir.model.fields,field_description:product_brand.field_product_brand_products_count
+msgid "Number of products"
+msgstr "产品数量"
+
+#. module: product_brand
+#: model:ir.model.fields,field_description:product_brand.field_product_brand_partner_id
+msgid "Partner"
+msgstr "业务伙伴"
+
+#. module: product_brand
+#: model:ir.actions.act_window,name:product_brand.action_open_single_product_brand
+#: model:ir.ui.view,arch_db:product_brand.product_brand_search_form_view
+msgid "Product Brand"
+msgstr "产品品牌"
+
+#. module: product_brand
+#: model:ir.ui.menu,name:product_brand.menu_product_brand
+msgid "Product Brands"
+msgstr "产品品牌"
+
+#. module: product_brand
+#: model:ir.model,name:product_brand.model_product_template
+msgid "Product Template"
+msgstr "产品模板"
+
+#. module: product_brand
+#: model:ir.ui.view,arch_db:product_brand.view_product_brand_form
+#: model:ir.ui.view,arch_db:product_brand.view_product_brand_kanban
+msgid "Products"
+msgstr "产品"
+
+#. module: product_brand
+#: model:ir.model,name:product_brand.model_sale_report
+msgid "Sales Orders Statistics"
+msgstr "销售订单统计"
+
+#. module: product_brand
+#: model:ir.model.fields,help:product_brand.field_product_product_product_brand_id
+#: model:ir.model.fields,help:product_brand.field_product_template_product_brand_id
+msgid "Select a brand for this product"
+msgstr "为这个产品选择一个品牌"
+
+#. module: product_brand
+#: model:ir.model.fields,help:product_brand.field_product_brand_partner_id
+msgid "Select a partner for this brand if any."
+msgstr "如果有的话，选择这个品牌的合作伙伴。"
+
+#. module: product_brand
+#: model:ir.model,name:product_brand.model_product_brand
+#: model:ir.ui.view,arch_db:product_brand.view_product_brand_tree
+msgid "product.brand"
+msgstr "product.brand"
