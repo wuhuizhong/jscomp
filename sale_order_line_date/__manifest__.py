@@ -16,7 +16,7 @@
     "category": "Sales Management",
     "license": "AGPL-3",
     "depends": [
-        "sale_order_dates",
+        "sale",
     ],
     "data": [
         "views/sale_order_view.xml",

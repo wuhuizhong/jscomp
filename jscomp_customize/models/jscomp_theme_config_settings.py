@@ -37,7 +37,7 @@ class jscompThemeConfigSettings(models.TransientModel):
     @api.model
     def get_values(self):
         ir_config = self.env['ir.config_parameter']
-        jscomp_system_name = ir_config.sudo().get_param('jscomp_system_name', default='odooApp')
+        jscomp_system_name = ir_config.sudo().get_param('jscomp_system_name', default='ERP')
 
         jscomp_show_lang = True if ir_config.sudo().get_param('jscomp_show_lang') == "True" else False
         jscomp_show_debug = True if ir_config.sudo().get_param('jscomp_show_debug') == "True" else False
