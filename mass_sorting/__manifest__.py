@@ -7,7 +7,7 @@
 {
     'name': 'Mass Sorting',
     'version': "12.0.1.0.0",
-    'author': 'GRAP,Odoo Community Association (OCA)',
+    'author': 'GRAP,Odoo Community Association (OCA),John Lin',
     'summary': 'Sort any models by any fields list',
     'category': 'Tools',
     'website': 'http://www.grap.coop',
