@@ -91,7 +91,7 @@ class MassSortConfig(models.Model):
         values_obj = self.env['ir.values']
         for config in self:
             button_name = _('Mass Sort (%s)') % config.name
-            config.action_id = action_obj.create({
+            vals['ref_ir_act_window_id'] = action_obj.create({
                 'name': button_name,
                 'type': 'ir.actions.act_window',
                 'res_model': 'mass.sort.wizard',
@@ -100,14 +100,13 @@ class MassSortConfig(models.Model):
                 'context': "{'mass_sort_config_id' : %d}" % (config.id),
                 'view_mode': 'form,tree',
                 'target': 'new',
-            })
-            config.value_id = values_obj.create({
-                'name': button_name,
-                'model': config.model_id.model,
-                'key2': 'client_action_multi',
-                'value': (
-                    "ir.actions.act_window,%s" % config.action_id.id),
-            })
+                'binding_type': 'action',  # boris.gra
+                'binding_model_id': self.model_id.id,  # boris.gra
+            }).id
+            self.write(vals)
+        return True
+
+
 
     @api.multi
     def unlink_action(self):

@@ -5,7 +5,7 @@
 from lxml import etree
 
 import odoo.tools as tools
-from odoo import api, models
+from odoo import api, models,_
 
 
 class MassEditingWizard(models.TransientModel):

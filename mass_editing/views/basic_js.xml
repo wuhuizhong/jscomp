@@ -3,7 +3,7 @@
     <data>
 
         <template id="assets_backend" name="customisations assets" inherit_id="web.assets_backend">
-            <xpath expr="." position="inside">
+            <xpath expr="script[last()]" position="after">
                 <script type="text/javascript" src="/mass_editing/static/src/js/basic_include.js"></script>
             </xpath>
         </template>
