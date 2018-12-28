@@ -87,8 +87,10 @@ class MassSortConfig(models.Model):
     # Custom Section
     @api.multi
     def create_action(self):
+        self.ensure_one()
+        vals = {}
         action_obj = self.env['ir.actions.act_window']
-        values_obj = self.env['ir.values']
+        src_obj = self.model_id.model
         for config in self:
             button_name = _('Mass Sort (%s)') % config.name
             vals['ref_ir_act_window_id'] = action_obj.create({
