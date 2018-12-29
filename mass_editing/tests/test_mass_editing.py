@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # © 2016 Serpent Consulting Services Pvt. Ltd. (support@serpentcs.com)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
@@ -6,7 +5,7 @@ import ast
 
 from odoo.tests import common
 from odoo.modules import registry
-from odoo.addons.mass_editing.hooks import uninstall_hook
+from ..hooks import uninstall_hook
 
 
 class TestMassEditing(common.TransactionCase):
@@ -21,7 +20,17 @@ class TestMassEditing(common.TransactionCase):
         self.partner_model = model_obj.\
             search([('model', '=', 'res.partner')])
         self.user_model = model_obj.search([('model', '=', 'res.users')])
+        # Calling the Search method without context for
+        # the Search from the List view of the Fields.
         self.fields_model = self.env['ir.model.fields'].\
+            search([('model_id', '=', self.partner_model.id),
+                    ('name', 'in', ['email', 'phone', 'category_id', 'comment',
+                                    'country_id', 'customer', 'child_ids',
+                                    'title'])])
+        # Calling the Search method with context for the Search
+        # model_id field related fields in the fields_ids.
+        self.fields_model = self.env['ir.model.fields'].\
+            with_context({'mass_edit': True}).\
             search([('model_id', '=', self.partner_model.id),
                     ('name', 'in', ['email', 'phone', 'category_id', 'comment',
                                     'country_id', 'customer', 'child_ids',
@@ -120,7 +129,7 @@ class TestMassEditing(common.TransactionCase):
         self.assertNotEqual(self.partner.category_id, False,
                             'Partner\'s category should be removed.')
         # Add m2m categories
-        dist_categ_id = self.env.ref('base.res_partner_category_13').id
+        dist_categ_id = self.env.ref('base.res_partner_category_12').id
         vals = {
             'selection__category_id': 'add',
             'category_id': [[6, 0, [dist_categ_id]]],
@@ -142,21 +151,19 @@ class TestMassEditing(common.TransactionCase):
 
     def test_sidebar_action(self):
         """Test if Sidebar Action is added / removed to / from give object."""
-        action = self.mass.ref_ir_act_window_id #and self.mass.ref_ir_value_id
+        action = self.mass.ref_ir_act_window_id
         self.assertTrue(action, 'Sidebar action must be exists.')
         # Remove the sidebar actions
         self.mass.unlink_action()
-        action = self.mass.ref_ir_act_window_id #and self.mass.ref_ir_value_id
+        action = self.mass.ref_ir_act_window_id
         self.assertFalse(action, 'Sidebar action must be removed.')
 
     def test_unlink_mass(self):
         """Test if related actions are removed when mass editing
         record is unlinked."""
-        mass_action_id = "ir.actions.act_window," + str(self.mass.id)
         self.mass.unlink()
-        value_cnt = self.env['ir.values'].search([('value', '=',
-                                                   mass_action_id)],
-                                                 count=True)
+        value_cnt = self.env['ir.actions.act_window'].search([
+            ('res_model', '=', 'mass.editing.wizard')], count=True)
         self.assertTrue(value_cnt == 0,
                         "Sidebar action must be removed when mass"
                         " editing is unlinked.")
@@ -165,10 +172,8 @@ class TestMassEditing(common.TransactionCase):
         """Test if related actions are removed when mass editing
         record is uninstalled."""
         uninstall_hook(self.cr, registry)
-        mass_action_id = "ir.actions.act_window," + str(self.mass.id)
-        value_cnt = self.env['ir.values'].search([('value', '=',
-                                                   mass_action_id)],
-                                                 count=True)
+        value_cnt = self.env['ir.actions.act_window'].search([
+            ('res_model', '=', 'mass.editing.wizard')], count=True)
         self.assertTrue(value_cnt == 0,
                         "Sidebar action must be removed when mass"
                         " editing module is uninstalled.")
