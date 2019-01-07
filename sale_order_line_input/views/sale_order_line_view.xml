@@ -43,7 +43,7 @@
                 <field name="product_uom"
                        attrs="{'readonly': [('state', 'in', ('sale','done', 'cancel'))]}"
                        context="{'company_id': company_id}"
-                       groups="product.group_uom" options='{"no_open": True}'/>
+                       groups="uom.group_uom" options='{"no_open": True}'/>
                 <field name="analytic_tag_ids"
                        attrs="{'readonly': [('state', 'in', ('done', 'cancel'))]}"
                        groups="analytic.group_analytic_accounting" widget="many2many_tags" options="{'color_field': 'color'}"/>
@@ -75,7 +75,7 @@
         <field name="arch" type="xml">
             <field name="salesman_id" position="after">
                 <field name="name"/>
-                <field name="product_uom" groups="product.group_uom"/>
+                <field name="product_uom" groups="uom.group_uom"/>
                 <field name="analytic_tag_ids" groups="analytic.group_analytic_accounting"/>
                 <separator/>
                 <filter name="not_invoice_related" string="Not Invoice Related" domain="[('invoice_lines', '=', False)]"/>
@@ -83,9 +83,9 @@
                         context="{'tax_hide': True}"/>
             </field>
             <group position="inside">
-                <filter string="Order State" context="{'group_by': 'state'}"/>
-                <filter string="Invoice Status" context="{'group_by': 'invoice_status'}"/>
-                <filter string="UoM" context="{'group_by': 'product_uom'}" groups="product.group_uom"/>
+                <filter string="Order State" name="Order State" context="{'group_by': 'state'}"/>
+                <filter string="Invoice Status" name="Invoice Status" context="{'group_by': 'invoice_status'}"/>
+                <filter string="UoM" name="Uom" context="{'group_by': 'product_uom'}" groups="uom.group_uom"/>
             </group>
         </field>
     </record>
