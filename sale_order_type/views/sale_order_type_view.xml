@@ -54,6 +54,7 @@
     <record id="sot_sale_order_type_search_view" model="ir.ui.view">
         <field name="name">sale.order.type.search.view</field>
         <field name="model">sale.order.type</field>
+        <field name="priority" eval="15"/>
         <field name="arch" type="xml">
             <search string="Type">
                 <field name="name"/>
@@ -65,19 +66,19 @@
                 <field name="pricelist_id" />
                 <field name="incoterm_id" />
                 <group expand="0" string="Group By">
-                    <filter string="Warehouse" domain="[]"
+                    <filter string="Warehouse" name="Warehouse" domain="[]"
                             context="{'group_by':'warehouse_id'}" />
-                    <filter string="Entry Sequence" domain="[]"
+                    <filter string="Entry Sequence" name="Sequence" domain="[]"
                             context="{'group_by':'sequence_id'}" />
-                    <filter string="Billing Journal" domain="[]"
+                    <filter string="Billing Journal" name="Bill Journal" domain="[]"
                             context="{'group_by':'journal_id'}" />
-                    <filter string="Shipping Policy" domain="[]"
+                    <filter string="Shipping Policy" name="Shipping Policy" domain="[]"
                             context="{'group_by':'picking_policy'}" />
-                    <filter string="Payment Term" domain="[]"
+                    <filter string="Payment Term"  name="Payment Term" domain="[]"
                             context="{'group_by':'payment_term_id'}" />
-                    <filter string="Price List" domain="[]"
+                    <filter string="Price List" name="Price List" domain="[]"
                             context="{'group_by':'pricelist_id'}" />
-                    <filter string="Incoterm" domain="[]"
+                    <filter string="Incoterm"  name="Incoterm" domain="[]"
                             context="{'group_by':'incoterm_id'}" />
                 </group>
             </search>

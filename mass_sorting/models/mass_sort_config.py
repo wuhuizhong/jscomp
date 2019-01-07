@@ -109,7 +109,6 @@ class MassSortConfig(models.Model):
         return True
 
 
-
     @api.multi
     def unlink_action(self):
         for config in self:
@@ -117,3 +116,5 @@ class MassSortConfig(models.Model):
                 config.action_id.unlink()
             if config.value_id:
                 config.value_id.unlink()
+        return True
+
