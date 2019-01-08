@@ -4,102 +4,102 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 12.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-08 04:02+0000\n"
+"PO-Revision-Date: 2019-01-08 12:06+0800\n"
+"Last-Translator: John Lin <linyinhuan@139.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"X-Generator: Poedit 2.2\n"
-"Last-Translator: John Lin <linyinhuan@139.com>\n"
+"Plural-Forms: \n"
 "Language: zh_CN\n"
+"X-Generator: Poedit 2.2\n"
 
 #. module: sale_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
 msgid "Delivered"
 msgstr "已送货"
 
 #. module: sale_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
 msgid "Invoice Related"
-msgstr "发票关联"
+msgstr "相关发票"
 
 #. module: sale_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
 msgid "Invoice Status"
 msgstr "发票状态"
 
 #. module: sale_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
 msgid "Invoiced"
 msgstr "已开票"
 
 #. module: sale_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
 msgid "New"
 msgstr "新建"
 
 #. module: sale_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
 msgid "Not Invoice Related"
-msgstr "无发票关联"
+msgstr "无相关发票"
 
 #. module: sale_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
 msgid "Order"
 msgstr "订单"
 
 #. module: sale_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
 msgid "Order State"
 msgstr "订单状态"
 
 #. module: sale_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
 msgid "Ordered"
 msgstr "已订"
 
 #. module: sale_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
 msgid "Ordered Qty"
-msgstr "订购数量"
+msgstr "订单数量"
 
 #. module: sale_order_line_input
-#: model:ir.model.fields,field_description:sale_order_line_input.field_sale_order_line_pricelist_id
+#: model:ir.model.fields,field_description:sale_order_line_input.field_sale_order_line__pricelist_id
 msgid "Pricelist"
 msgstr "价格表"
 
 #. module: sale_order_line_input
-#: model:ir.model.fields,help:sale_order_line_input.field_sale_order_line_pricelist_id
+#: model:ir.model.fields,help:sale_order_line_input.field_sale_order_line__pricelist_id
 msgid "Pricelist for current sales order."
 msgstr "当前销售订单的价格表。"
 
 #. module: sale_order_line_input
 #: model:ir.model,name:sale_order_line_input.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "销售明细"
+msgstr "销售订单明细"
 
 #. module: sale_order_line_input
 #: model:ir.actions.act_window,name:sale_order_line_input.action_sales_order_line_input
 #: model:ir.ui.menu,name:sale_order_line_input.menu_sales_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
 msgid "Sales Orders Lines"
 msgstr "销售订单明细"
 
 #. module: sale_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
 msgid "To Invoice"
 msgstr "待开票"
 
 #. module: sale_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
 msgid "Total"
 msgstr "总计"
 
 #. module: sale_order_line_input
-#: model:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
+#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
 msgid "UoM"
 msgstr "计量单位"
