@@ -1,0 +1,228 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * base_user_role
+#
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2016
+# Jeffery Chen Fan <jeffery9@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-17 02:07+0000\n"
+"PO-Revision-Date: 2019-01-08 13:23+0800\n"
+"Last-Translator: John Lin <linyinhuan@139.com>\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/oca/teams/23907/"
+"zh_CN/)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__model_access
+msgid "Access Controls"
+msgstr "权限控制"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__menu_access
+msgid "Access Menu"
+msgstr "权限菜单"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__category_id
+msgid "Application"
+msgstr "应用"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__group_category_id
+msgid "Associated category"
+msgstr "关联类别"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__group_id
+msgid "Associated group"
+msgstr "关联组"
+
+#. module: base_user_role
+#: model:ir.model.fields,help:base_user_role.field_res_users_role__group_category_id
+msgid "Associated group's category"
+msgstr "关联组的类别"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__color
+msgid "Color Index"
+msgstr "颜色索引"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__comment
+msgid "Comment"
+msgstr "备注"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__create_uid
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__create_date
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__display_name
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__is_enabled
+msgid "Enabled"
+msgstr "启用"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__date_from
+msgid "From"
+msgstr "从"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__full_name
+msgid "Group Name"
+msgstr "组名"
+
+#. module: base_user_role
+#: model:ir.model.fields,help:base_user_role.field_res_users_role__share
+msgid "Group created to set access rights for sharing data with some users."
+msgstr "为设置一些用户的共享数据访问权所建立的用户组。"
+
+#. module: base_user_role
+#: model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_role_form
+msgid "Groups"
+msgstr "组"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__id
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__implied_ids
+msgid "Inherits"
+msgstr "继承"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role____last_update
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line____last_update
+msgid "Last Modified on"
+msgstr "最近修改日期"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__write_uid
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__write_uid
+msgid "Last Updated by"
+msgstr "最近更新者"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__write_date
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__write_date
+msgid "Last Updated on"
+msgstr "最近更新日期"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__name
+msgid "Name"
+msgstr "名称"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__role_id
+msgid "Role"
+msgstr "角色"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users__role_line_ids
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__line_ids
+msgid "Role lines"
+msgstr "角色明细"
+
+#. module: base_user_role
+#: model:ir.actions.act_window,name:base_user_role.action_res_users_role_tree
+#: model:ir.model.fields,field_description:base_user_role.field_res_users__role_ids
+#: model:ir.ui.menu,name:base_user_role.menu_action_res_users_role_tree
+#: model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_form_inherit
+#: model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_role_search
+msgid "Roles"
+msgstr "角色"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__rule_groups
+msgid "Rules"
+msgstr "规则"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__share
+msgid "Share Group"
+msgstr "共享组"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__date_to
+msgid "To"
+msgstr "到"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__trans_implied_ids
+msgid "Transitively inherits"
+msgstr "传递继承"
+
+#. module: base_user_role
+#: model:ir.actions.server,name:base_user_role.cron_update_users_ir_actions_server
+#: model:ir.cron,cron_name:base_user_role.cron_update_users
+#: model:ir.cron,name:base_user_role.cron_update_users
+msgid "Update user roles"
+msgstr "更新用户角色"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__user_id
+msgid "User"
+msgstr "用户"
+
+#. module: base_user_role
+#: model:ir.model,name:base_user_role.model_res_users_role
+msgid "User role"
+msgstr "用户角色"
+
+#. module: base_user_role
+#: model:ir.module.category,name:base_user_role.ir_module_category_role
+msgid "User roles"
+msgstr "用户角色"
+
+#. module: base_user_role
+#: model:ir.model,name:base_user_role.model_res_users
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__users
+#: model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_role_form
+msgid "Users"
+msgstr "用户"
+
+#. module: base_user_role
+#: model:ir.model,name:base_user_role.model_res_users_role_line
+msgid "Users associated to a role"
+msgstr "与角色关联的用户"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__user_ids
+msgid "Users list"
+msgstr "用户列表"
+
+#. module: base_user_role
+#: model:ir.model.fields,help:base_user_role.field_res_users_role__implied_ids
+msgid "Users of this group automatically inherit those groups"
+msgstr "这个群组的用户自动继承那些群组"
+
+#. module: base_user_role
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__view_access
+msgid "Views"
+msgstr "视图"
