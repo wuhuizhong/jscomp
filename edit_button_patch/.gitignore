@@ -1,0 +1,7 @@
+*.py[cod]
+.idea
+.idea/*
+.project
+.pydevproject
+.settings/
+.directory
