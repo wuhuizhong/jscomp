@@ -1,0 +1,58 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hide_confidential_info
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-15 08:05+0000\n"
+"PO-Revision-Date: 2019-01-15 16:06+0800\n"
+"Last-Translator: John Lin <linyinhuan@139.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: hide_confidential_info
+#: model:ir.model.fields,field_description:hide_confidential_info.field_product_product__standard_price
+msgid "Cost"
+msgstr "成本"
+
+#. module: hide_confidential_info
+#: model:ir.model.fields,help:hide_confidential_info.field_product_product__standard_price
+msgid "Cost used for stock valuation in standard price and as a first price to set in average/fifo. Also used as a base price for pricelists. Expressed in the default unit of measure of the product. "
+msgstr "用于会计库存评估的存货模板的成本价格，并作为采购订单的基本价格。用存货的默认计量单位表示。 "
+
+#. module: hide_confidential_info
+#: model_terms:ir.ui.view,arch_db:hide_confidential_info.partner_search_name_or_phone
+msgid "Name/Phone"
+msgstr "姓名/电话"
+
+#. module: hide_confidential_info
+#: model:ir.model,name:hide_confidential_info.model_product_product
+msgid "Product"
+msgstr "产品"
+
+#. module: hide_confidential_info
+#: model:ir.model.fields,field_description:hide_confidential_info.field_product_product__stock_value
+msgid "Value"
+msgstr "值"
+
+#. module: hide_confidential_info
+#: model:res.groups,name:hide_confidential_info.view_cost_price
+msgid "View Cost Price"
+msgstr "显示成本价格"
+
+#. module: hide_confidential_info
+#: model:res.groups,name:hide_confidential_info.view_partner_detail
+msgid "View Partner Detail"
+msgstr "显示合作伙伴详细信息"
+
+#. module: hide_confidential_info
+#: model:res.groups,name:hide_confidential_info.view_price
+msgid "View Price"
+msgstr "显示价格"

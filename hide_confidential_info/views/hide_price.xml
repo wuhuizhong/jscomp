@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record id="view_order_tree_hide_price" model="ir.ui.view">
+            <field name="name">sale.order.tree</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_tree"/>
+            <field name="arch" type="xml">
+                <field name="amount_total"  position="attributes">
+                        <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </field>
+            </field>
+        </record>
+
+        <record id="view_quotation_tree_hide_price" model="ir.ui.view">
+            <field name="name">sale.order.tree</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_quotation_tree"/>
+            <field name="arch" type="xml">
+                <field name="amount_total" position="attributes">
+                        <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </field>
+            </field>
+        </record>
+
+
+        <record id="view_order_form_hide_price" model="ir.ui.view">
+            <field name="name">sale.order.form</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='order_line']/form//field[@name='price_subtotal']" position="attributes">
+                     <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='order_line']/form//field[@name='price_unit']" position="attributes">
+                     <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+                <xpath expr="//field[@name='order_line']/form//field[@name='tax_id']" position="attributes">
+                     <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+				<xpath expr="//field[@name='order_line']/tree//field[@name='price_unit']" position="attributes">
+                     <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+                <xpath expr="//field[@name='order_line']/tree//field[@name='price_subtotal']" position="attributes">
+                     <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+				 <xpath expr="//field[@name='order_line']/tree//field[@name='tax_id']" position="attributes">
+                     <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+				 <xpath expr="//kanban[@class='o_kanban_mobile']/field[@name='price_subtotal']" position="attributes">
+                     <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+                <xpath expr="//group[@class='oe_subtotal_footer oe_right']" position="attributes">
+                     <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="purchase_order_tree_hide_price" model="ir.ui.view">
+            <field name="name">purchase.order.tree</field>
+            <field name="model">purchase.order</field>
+            <field name="inherit_id" ref="purchase.purchase_order_tree"/>
+            <field name="arch" type="xml">
+                <field name="amount_untaxed" position="attributes">
+                    <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </field>
+                <field name="amount_total" position="attributes">
+                    <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </field>
+            </field>
+        </record>
+
+        <record id="purchase_order_form_hide_price" model="ir.ui.view">
+            <field name="name">purchase.order.form</field>
+            <field name="model">purchase.order</field>
+            <field name="inherit_id" ref="purchase.purchase_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='order_line']/tree/field[@name='price_unit']" position="attributes">
+                    <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+                <xpath expr="//field[@name='order_line']/tree/field[@name='taxes_id']" position="attributes">
+                    <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+                <xpath expr="//field[@name='order_line']/tree/field[@name='price_subtotal']" position="attributes">
+                    <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='order_line']/form//field[@name='price_unit']" position="attributes">
+                    <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+                <xpath expr="//field[@name='order_line']/form//field[@name='taxes_id']" position="attributes">
+                    <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+                
+                <xpath expr="//group[@class='oe_subtotal_footer oe_right']" position="attributes">
+                    <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </xpath>
+            </field>
+        </record>
+
+                <!-- Purchase Orders Kanban View  -->
+        <record model="ir.ui.view" id="view_purchase_order_kanban_hide_price">
+            <field name="name">purchase.order.kanban</field>
+            <field name="model">purchase.order</field>
+            <field name="inherit_id" ref="purchase.view_purchase_order_kanban"/>
+            <field name="arch" type="xml">
+                <field name="amount_total" position="attributes">
+                    <attribute name="groups">hide_confidential_info.view_price</attribute>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>
