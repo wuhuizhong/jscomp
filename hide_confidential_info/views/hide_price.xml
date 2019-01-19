@@ -3,7 +3,7 @@
     <data>
         <!-- explicit list view definition -->
         <record id="view_order_tree_hide_price" model="ir.ui.view">
-            <field name="name">sale.order.tree</field>
+            <field name="name">view.order.tree.hide.price</field>
             <field name="model">sale.order</field>
             <field name="inherit_id" ref="sale.view_order_tree"/>
             <field name="arch" type="xml">
@@ -14,7 +14,7 @@
         </record>
 
         <record id="view_quotation_tree_hide_price" model="ir.ui.view">
-            <field name="name">sale.order.tree</field>
+            <field name="name">view.quotation.tree.hide.price</field>
             <field name="model">sale.order</field>
             <field name="inherit_id" ref="sale.view_quotation_tree"/>
             <field name="arch" type="xml">
@@ -26,7 +26,7 @@
 
 
         <record id="view_order_form_hide_price" model="ir.ui.view">
-            <field name="name">sale.order.form</field>
+            <field name="name">view.order.form.hide.price</field>
             <field name="model">sale.order</field>
             <field name="inherit_id" ref="sale.view_order_form"/>
             <field name="arch" type="xml">
@@ -59,7 +59,7 @@
         </record>
 
         <record id="purchase_order_tree_hide_price" model="ir.ui.view">
-            <field name="name">purchase.order.tree</field>
+            <field name="name">purchase.order.tree.hide.price</field>
             <field name="model">purchase.order</field>
             <field name="inherit_id" ref="purchase.purchase_order_tree"/>
             <field name="arch" type="xml">
@@ -73,7 +73,7 @@
         </record>
 
         <record id="purchase_order_form_hide_price" model="ir.ui.view">
-            <field name="name">purchase.order.form</field>
+            <field name="name">purchase.order.form.hide.price</field>
             <field name="model">purchase.order</field>
             <field name="inherit_id" ref="purchase.purchase_order_form"/>
             <field name="arch" type="xml">
@@ -102,7 +102,7 @@
 
                 <!-- Purchase Orders Kanban View  -->
         <record model="ir.ui.view" id="view_purchase_order_kanban_hide_price">
-            <field name="name">purchase.order.kanban</field>
+            <field name="name">purchase.order.kanban.hide.price</field>
             <field name="model">purchase.order</field>
             <field name="inherit_id" ref="purchase.view_purchase_order_kanban"/>
             <field name="arch" type="xml">
