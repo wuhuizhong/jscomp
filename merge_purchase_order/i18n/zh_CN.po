@@ -1,0 +1,122 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* merge_purchase_order
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-21 06:21+0000\n"
+"PO-Revision-Date: 2019-01-21 14:25+0800\n"
+"Last-Translator: John Lin <linyinhuan@139.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. module: merge_purchase_order
+#: model_terms:ir.ui.view,arch_db:merge_purchase_order.view_merge_purchase_line
+msgid "Cancel"
+msgstr "取消"
+
+#. module: merge_purchase_order
+#: selection:merge.purchase.order,merge_type:0
+msgid "Create new order and cancel all selected purchase orders"
+msgstr "创建新订单并取消所有选定的采购单"
+
+#. module: merge_purchase_order
+#: selection:merge.purchase.order,merge_type:0
+msgid "Create new order and delete all selected purchase orders"
+msgstr "创建新订单并删除所有选定的采购单"
+
+#. module: merge_purchase_order
+#: model:ir.model.fields,field_description:merge_purchase_order.field_merge_purchase_order__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: merge_purchase_order
+#: model:ir.model.fields,field_description:merge_purchase_order.field_merge_purchase_order__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: merge_purchase_order
+#: model:ir.model.fields,field_description:merge_purchase_order.field_merge_purchase_order__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: merge_purchase_order
+#: model:ir.model.fields,field_description:merge_purchase_order.field_merge_purchase_order__id
+msgid "ID"
+msgstr "ID"
+
+#. module: merge_purchase_order
+#: model:ir.model.fields,field_description:merge_purchase_order.field_merge_purchase_order____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: merge_purchase_order
+#: model:ir.model.fields,field_description:merge_purchase_order.field_merge_purchase_order__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: merge_purchase_order
+#: model:ir.model.fields,field_description:merge_purchase_order.field_merge_purchase_order__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: merge_purchase_order
+#: model:ir.actions.act_window,name:merge_purchase_order.action_view_merge_purchase_line
+#: model_terms:ir.ui.view,arch_db:merge_purchase_order.view_merge_purchase_line
+msgid "Merge Orders"
+msgstr "合并采购"
+
+#. module: merge_purchase_order
+#: model:ir.model.fields,field_description:merge_purchase_order.field_merge_purchase_order__merge_type
+msgid "Merge Type"
+msgstr "合并类型"
+
+#. module: merge_purchase_order
+#: selection:merge.purchase.order,merge_type:0
+msgid "Merge order on existing selected order and cancel others"
+msgstr "在现有选定订单上合并订单并取消其他订单"
+
+#. module: merge_purchase_order
+#: selection:merge.purchase.order,merge_type:0
+msgid "Merge order on existing selected order and delete others"
+msgstr "在现有选定订单上合并订单并删除其他订单"
+
+#. module: merge_purchase_order
+#: code:addons/merge_purchase_order/wizard/merge_puchase_order_wizard.py:49
+#, python-format
+msgid "Please select Purchase orders which are in RFQ state to perform the Merge Operation."
+msgstr "请选择在询价状态的采购单来执行合并操作。"
+
+#. module: merge_purchase_order
+#: code:addons/merge_purchase_order/wizard/merge_puchase_order_wizard.py:54
+#, python-format
+msgid "Please select Purchase orders whose Vendors are same to  perform the Merge Operation."
+msgstr "请选择其供应商相同的采购单来执行合并操作。"
+
+#. module: merge_purchase_order
+#: code:addons/merge_purchase_order/wizard/merge_puchase_order_wizard.py:45
+#, python-format
+msgid "Please select atleast two purchase orders to perform the Merge Operation."
+msgstr "请至少选择两个采购单来执行合并操作。"
+
+#. module: merge_purchase_order
+#: model:ir.model.fields,field_description:merge_purchase_order.field_merge_purchase_order__purchase_order_id
+msgid "Purchase Order"
+msgstr "采购订单"
+
+#. module: merge_purchase_order
+#: model_terms:ir.ui.view,arch_db:merge_purchase_order.view_merge_purchase_line
+msgid "Purchase Order Merge"
+msgstr "采购单合并"
+
+#. module: merge_purchase_order
+#: model:ir.model,name:merge_purchase_order.model_merge_purchase_order
+msgid "merge.purchase.order"
+msgstr "merge.purchase.order"
