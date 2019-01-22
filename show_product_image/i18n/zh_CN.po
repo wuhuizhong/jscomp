@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* sales_report_product_image
+# 	* show_product_image
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-19 03:50+0000\n"
-"PO-Revision-Date: 2019-01-19 11:53+0800\n"
+"POT-Creation-Date: 2019-01-22 00:49+0000\n"
+"PO-Revision-Date: 2019-01-22 08:51+0800\n"
 "Last-Translator: John Lin <linyinhuan@139.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,64 +17,87 @@ msgstr ""
 "Language: zh\n"
 "X-Generator: Poedit 2.2.1\n"
 
-#. module: sales_report_product_image
-#: selection:sale.order,image_sizes:0
+#. module: show_product_image
+#: selection:purchase.order,image_sizes:0 selection:sale.order,image_sizes:0
 msgid "Big sized Image"
 msgstr "大尺寸图片"
 
-#. module: sales_report_product_image
-#: model:ir.model.fields,help:sales_report_product_image.field_sale_order__print_image
+#. module: show_product_image
+#: model:ir.model.fields,help:show_product_image.field_purchase_order__print_image
+msgid ""
+"If ticked, you can see the product image in\n"
+"        report of purchase order/quotation"
+msgstr "如果打勾, 您可以在采购订单/询价但看到产品图像"
+
+#. module: show_product_image
+#: model:ir.model.fields,help:show_product_image.field_sale_order__print_image
 msgid ""
 "If ticked, you can see the product image in\n"
 "        report of sale order/quotation"
 msgstr "如果勾选，则在报价单/销售订单报表上可见"
 
-#. module: sales_report_product_image
-#: model:ir.model.fields,field_description:sales_report_product_image.field_sale_order__image_sizes
+#. module: show_product_image
+#: model:ir.model.fields,field_description:show_product_image.field_purchase_order__image_sizes
+#: model:ir.model.fields,field_description:show_product_image.field_sale_order__image_sizes
 msgid "Image Sizes"
 msgstr "图片大小"
 
-#. module: sales_report_product_image
-#: model:ir.model.fields,help:sales_report_product_image.field_sale_order_line__image_small
+#. module: show_product_image
+#: model:ir.model.fields,help:show_product_image.field_purchase_order_line__image_small
+#: model:ir.model.fields,help:show_product_image.field_sale_order_line__image_small
 msgid "Image of the product variant (Small-sized image of product template if false)."
 msgstr "产品变体的图像(如果为Flase,采用产品模板的小尺寸图像)"
 
-#. module: sales_report_product_image
-#: model:ir.model.fields,help:sales_report_product_image.field_sale_order__image_sizes
+#. module: show_product_image
+#: model:ir.model.fields,help:show_product_image.field_purchase_order__image_sizes
+#: model:ir.model.fields,help:show_product_image.field_sale_order__image_sizes
 msgid "Image size to be displayed in report"
 msgstr "显示在报表上的图片大小"
 
-#. module: sales_report_product_image
-#: selection:sale.order,image_sizes:0
+#. module: show_product_image
+#: selection:purchase.order,image_sizes:0 selection:sale.order,image_sizes:0
 msgid "Medium Sized Image"
 msgstr "中等尺寸图片"
 
-#. module: sales_report_product_image
-#: model:ir.model.fields,field_description:sales_report_product_image.field_sale_order__print_desc
-msgid "Print Description"
-msgstr "打印描述"
-
-#. module: sales_report_product_image
-#: model:ir.model.fields,field_description:sales_report_product_image.field_sale_order__print_image
+#. module: show_product_image
+#: model:ir.model.fields,field_description:show_product_image.field_purchase_order__print_image
+#: model:ir.model.fields,field_description:show_product_image.field_sale_order__print_image
 msgid "Print Image"
 msgstr "打印图片"
 
-#. module: sales_report_product_image
-#: model:ir.model.fields,field_description:sales_report_product_image.field_sale_order_line__image_small
+#. module: show_product_image
+#: model:ir.model.fields,field_description:show_product_image.field_purchase_order_line__image_small
+#: model:ir.model.fields,field_description:show_product_image.field_sale_order_line__image_small
 msgid "Product Image"
 msgstr "产品图片"
 
-#. module: sales_report_product_image
-#: model:ir.model,name:sales_report_product_image.model_sale_order
+#. module: show_product_image
+#: model_terms:ir.ui.view,arch_db:show_product_image.purchase_order_image_form_inherit
+#: model_terms:ir.ui.view,arch_db:show_product_image.view_order_image_form_inherit
+msgid "Product Image Configuration"
+msgstr "产品图片设置"
+
+#. module: show_product_image
+#: model:ir.model,name:show_product_image.model_purchase_order
+msgid "Purchase Order"
+msgstr "采购订单"
+
+#. module: show_product_image
+#: model:ir.model,name:show_product_image.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "采购订单行"
+
+#. module: show_product_image
+#: model:ir.model,name:show_product_image.model_sale_order
 msgid "Sale Order"
 msgstr "销售订单"
 
-#. module: sales_report_product_image
-#: model:ir.model,name:sales_report_product_image.model_sale_order_line
+#. module: show_product_image
+#: model:ir.model,name:show_product_image.model_sale_order_line
 msgid "Sales Order Line"
 msgstr "销售订单行"
 
-#. module: sales_report_product_image
-#: selection:sale.order,image_sizes:0
+#. module: show_product_image
+#: selection:purchase.order,image_sizes:0 selection:sale.order,image_sizes:0
 msgid "Small Sized Image"
 msgstr "小尺寸图片"
