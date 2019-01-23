@@ -1,0 +1,170 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mass_editing
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-23 06:34+0000\n"
+"PO-Revision-Date: 2019-01-23 14:39+0800\n"
+"Last-Translator: John Lin <linyinhuan@139.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. module: mass_editing
+#: code:addons/mass_editing/models/mass_object.py:90
+#, python-format
+msgid "%s (copy)"
+msgstr "%s (副本)"
+
+#. module: mass_editing
+#: model_terms:ir.ui.view,arch_db:mass_editing.view_mass_object_form
+msgid "Add Sidebar Button"
+msgstr "添加侧边栏按钮"
+
+#. module: mass_editing
+#: model_terms:ir.ui.view,arch_db:mass_editing.view_mass_object_form
+msgid "Advanced"
+msgstr "高级"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard__create_uid
+#: model:ir.model.fields,field_description:mass_editing.field_mass_object__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard__create_date
+#: model:ir.model.fields,field_description:mass_editing.field_mass_object__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: mass_editing
+#: code:addons/mass_editing/models/mass_object.py:77
+#, python-format
+msgid "Deletion of the action record failed."
+msgstr "动作记录删除失败。"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard__display_name
+#: model:ir.model.fields,field_description:mass_editing.field_mass_object__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: mass_editing
+#: model_terms:ir.ui.view,arch_db:mass_editing.view_mass_object_form
+msgid "Display a button in the sidebar of related documents to open a composition wizard"
+msgstr "在相关文档的侧边栏中显示一个按钮以打开构建向导"
+
+#. module: mass_editing
+#: model:ir.model,name:mass_editing.model_ir_model_fields
+#: model:ir.model.fields,field_description:mass_editing.field_mass_object__field_ids
+#: model_terms:ir.ui.view,arch_db:mass_editing.view_mass_object_form
+msgid "Fields"
+msgstr "字段"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard__id
+#: model:ir.model.fields,field_description:mass_editing.field_mass_object__id
+msgid "ID"
+msgstr "ID"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard____last_update
+#: model:ir.model.fields,field_description:mass_editing.field_mass_object____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard__write_uid
+#: model:ir.model.fields,field_description:mass_editing.field_mass_object__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard__write_date
+#: model:ir.model.fields,field_description:mass_editing.field_mass_object__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: mass_editing
+#: model:ir.actions.act_window,name:mass_editing.action_mass_object
+#: model:ir.ui.menu,name:mass_editing.menu_mass_editing
+#: model:ir.ui.menu,name:mass_editing.menu_mass_object_view
+msgid "Mass Editing"
+msgstr "批量编辑"
+
+#. module: mass_editing
+#: code:addons/mass_editing/models/mass_object.py:55
+#, python-format
+msgid "Mass Editing (%s)"
+msgstr "批量编辑(%s)"
+
+#. module: mass_editing
+#: model:ir.model,name:mass_editing.model_mass_object
+msgid "Mass Editing Object"
+msgstr "批量编辑对象"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_object__model_id
+msgid "Model"
+msgstr "模型"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_object__model_list
+msgid "Model List"
+msgstr "模型列表"
+
+#. module: mass_editing
+#: model:ir.model.fields,help:mass_editing.field_mass_object__model_id
+msgid "Model is used for Selecting Fields. This is editable until Sidebar menu is not created."
+msgstr "模型用于选择字段。 在创建创建侧边栏菜单前可以编辑。"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_object__name
+msgid "Name"
+msgstr "名称"
+
+#. module: mass_editing
+#: code:addons/mass_editing/models/mass_object.py:29
+#: sql_constraint:mass.object:0
+#, python-format
+msgid "Name must be unique!"
+msgstr "名称必须唯一！"
+
+#. module: mass_editing
+#: model_terms:ir.ui.view,arch_db:mass_editing.view_mass_object_form
+#: model_terms:ir.ui.view,arch_db:mass_editing.view_mass_object_tree
+msgid "Object"
+msgstr "对象"
+
+#. module: mass_editing
+#: model_terms:ir.ui.view,arch_db:mass_editing.view_mass_object_form
+msgid "Remove Sidebar Button"
+msgstr "移除侧边栏按钮"
+
+#. module: mass_editing
+#: model_terms:ir.ui.view,arch_db:mass_editing.view_mass_object_form
+msgid "Remove the contextual action to use this template on related documents"
+msgstr "移除上下文动作，使用相关单据的模板。"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_object__ref_ir_act_window_id
+msgid "Sidebar Action"
+msgstr "侧边栏动作"
+
+#. module: mass_editing
+#: model:ir.model.fields,help:mass_editing.field_mass_object__ref_ir_act_window_id
+msgid "Sidebar action to make this template available on records of the related document model."
+msgstr "侧边栏动作可使该模板在相关文档模型的记录上可用。"
+
+#. module: mass_editing
+#: model:ir.model,name:mass_editing.model_mass_editing_wizard
+msgid "mass.editing.wizard"
+msgstr "mass.editing.wizard"
