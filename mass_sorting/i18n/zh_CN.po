@@ -1,24 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * mass_sorting
+# 	* mass_sorting
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 12.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-01 02:10+0000\n"
-"PO-Revision-Date: 2018-06-17 16:35+0800\n"
+"POT-Creation-Date: 2019-01-23 07:08+0000\n"
+"PO-Revision-Date: 2019-01-23 15:13+0800\n"
 "Last-Translator: John Lin <linyinhuan@139.com>\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/oca/teams/23907/"
-"zh_CN/)\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.8\n"
+"Plural-Forms: \n"
+"Language: zh\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. module: mass_sorting
 #: code:addons/mass_sorting/models/mass_sort_config.py:84
@@ -27,132 +24,128 @@ msgid "%s (copy)"
 msgstr "%s (副本)"
 
 #. module: mass_sorting
-#: model:ir.ui.view,arch_db:mass_sorting.view_mass_sort_config_form
+#: model_terms:ir.ui.view,arch_db:mass_sorting.view_mass_sort_config_form
 msgid "Add sidebar button"
-msgstr "添加侧边栏按钮"
+msgstr "添加侧边栏按钮 "
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_allow_custom_setting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_allow_custom_setting
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__allow_custom_setting
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard__allow_custom_setting
 msgid "Allow Custom Setting"
 msgstr "允许自定义设置"
 
 #. module: mass_sorting
-#: model:ir.ui.view,arch_db:mass_sorting.view_mass_sort_wizard_form
+#: model_terms:ir.ui.view,arch_db:mass_sorting.view_mass_sort_wizard_form
 msgid "Cancel"
 msgstr "取消"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_config_id
-msgid "Config id"
-msgstr "配置标识"
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard__config_id
+msgid "Config"
+msgstr "设置"
 
 #. module: mass_sorting
-#: model:ir.ui.view,arch_db:mass_sorting.view_mass_sort_wizard_form
+#: model_terms:ir.ui.view,arch_db:mass_sorting.view_mass_sort_wizard_form
 msgid "Confirm"
 msgstr "确认"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_create_uid
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line_create_uid
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_create_uid
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line_create_uid
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__create_uid
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line__create_uid
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard__create_uid
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line__create_uid
 msgid "Created by"
-msgstr "创建者"
+msgstr "创建人"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_create_date
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line_create_date
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_create_date
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line_create_date
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__create_date
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line__create_date
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard__create_date
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line__create_date
 msgid "Created on"
 msgstr "创建时间"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_description
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard__description
 msgid "Description"
 msgstr "说明"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_display_name
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line_display_name
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_display_name
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line_display_name
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__display_name
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line__display_name
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard__display_name
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line__display_name
 msgid "Display Name"
 msgstr "显示名称"
 
 #. module: mass_sorting
-#: model:ir.ui.view,arch_db:mass_sorting.view_mass_sort_config_form
+#: model_terms:ir.ui.view,arch_db:mass_sorting.view_mass_sort_config_form
 msgid "Display a button in the sidebar of related model to open a wizard"
 msgstr "在相关模型的侧栏中显示一个按钮，打开一个向导"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line_field_id
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line_field_id
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line__field_id
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line__field_id
 msgid "Field"
 msgstr "字段"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_one2many_field_id
-#, fuzzy
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__one2many_field_id
 msgid "Field to Sort"
 msgstr "要排序的字段"
 
 #. module: mass_sorting
-#: model:ir.model.fields,help:mass_sorting.field_mass_sort_config_one2many_model
-#: model:ir.model.fields,help:mass_sorting.field_mass_sort_wizard_one2many_model
+#: model:ir.model.fields,help:mass_sorting.field_mass_sort_config__one2many_model
+#: model:ir.model.fields,help:mass_sorting.field_mass_sort_wizard__one2many_model
 msgid "For relationship fields, the technical name of the target model"
-msgstr "对于关系字段，目标模型的技术名称"
+msgstr "对于关系字段，目标模型的技术名称。"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_id
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line_id
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_id
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line_id
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__id
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line__id
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard__id
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line__id
 msgid "ID"
 msgstr "ID"
 
 #. module: mass_sorting
-#: model:ir.model.fields,help:mass_sorting.field_mass_sort_config_allow_custom_setting
-#: model:ir.model.fields,help:mass_sorting.field_mass_sort_wizard_allow_custom_setting
-msgid ""
-"If checked, any user could have the possibility to change fields, and use "
-"others."
-msgstr "如果选中，任何用户都可以更改字段，并使用其他用户。"
+#: model:ir.model.fields,help:mass_sorting.field_mass_sort_config__allow_custom_setting
+#: model:ir.model.fields,help:mass_sorting.field_mass_sort_wizard__allow_custom_setting
+msgid "If checked, any user could have the possibility to change fields, and use others."
+msgstr "如果选中, 任何用户都可以更改字段, 并使用其他字段。"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line_desc
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line_desc
-#, fuzzy
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line__desc
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line__desc
 msgid "Inverse Order"
-msgstr "反转顺序"
+msgstr "反向顺序"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config___last_update
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line___last_update
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard___last_update
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line___last_update
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config____last_update
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line____last_update
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard____last_update
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line____last_update
 msgid "Last Modified on"
-msgstr "最后修改时间"
+msgstr "最后修改日"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line_write_uid
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_write_uid
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line_write_uid
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_write_uid
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__write_uid
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line__write_uid
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard__write_uid
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line__write_uid
 msgid "Last Updated by"
 msgstr "最后更新者"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line_write_date
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_write_date
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line_write_date
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_write_date
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__write_date
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line__write_date
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard__write_date
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line__write_date
 msgid "Last Updated on"
-msgstr "上次更新日期"
+msgstr "最后更新时间"
 
 #. module: mass_sorting
-#: code:addons/mass_sorting/models/mass_sort_config.py:93
+#: code:addons/mass_sorting/models/mass_sort_config.py:95
 #, python-format
 msgid "Mass Sort (%s)"
 msgstr "批量排序 (%s)"
@@ -160,99 +153,89 @@ msgstr "批量排序 (%s)"
 #. module: mass_sorting
 #: model:ir.actions.act_window,name:mass_sorting.action_mass_sort_config
 #: model:ir.ui.menu,name:mass_sorting.menu_mass_sort_config
-#: model:ir.ui.view,arch_db:mass_sorting.view_mass_sort_config_tree
+#: model_terms:ir.ui.view,arch_db:mass_sorting.view_mass_sort_config_tree
 msgid "Mass Sorting"
 msgstr "批量排序"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_model_id
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__model_id
 msgid "Model"
 msgstr "模型"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_one2many_model
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_one2many_model
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__one2many_model
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard__one2many_model
 msgid "Model Name of the Field to Sort"
 msgstr "要排序的字段的模型名称"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_name
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__name
 msgid "Name"
 msgstr "名称"
 
 #. module: mass_sorting
 #: code:addons/mass_sorting/models/mass_sort_wizard.py:71
-#, fuzzy, python-format
+#, python-format
 msgid "Please Select at least one Sorting Criteria."
 msgstr "请至少选择一个排序条件。"
 
 #. module: mass_sorting
-#: model:ir.ui.view,arch_db:mass_sorting.view_mass_sort_config_form
+#: model_terms:ir.ui.view,arch_db:mass_sorting.view_mass_sort_config_form
 msgid "Remove sidebar button"
 msgstr "移除侧边按钮"
 
 #. module: mass_sorting
-#: model:mass.sort.config,name:mass_sorting.mass_sort_config_demo
-msgid "Self Mass Sort Demo"
-msgstr "自带批量排序演示"
-
-#. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line_sequence
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line_sequence
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line__sequence
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line__sequence
 msgid "Sequence"
 msgstr "序号"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_action_id
-#, fuzzy
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__action_id
 msgid "Sidebar Action"
 msgstr "侧边栏动作"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_value_id
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__value_id
 msgid "Sidebar Button"
 msgstr "侧边栏按钮"
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line_ids
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line_ids
-#: model:ir.ui.view,arch_db:mass_sorting.view_mass_sort_config_form
-#: model:ir.ui.view,arch_db:mass_sorting.view_mass_sort_wizard_form
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config__line_ids
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard__line_ids
+#: model_terms:ir.ui.view,arch_db:mass_sorting.view_mass_sort_config_form
+#: model_terms:ir.ui.view,arch_db:mass_sorting.view_mass_sort_wizard_form
 msgid "Sorting Criterias"
 msgstr "排序条件"
 
 #. module: mass_sorting
 #: code:addons/mass_sorting/models/mass_sort_config.py:63
-#, fuzzy, python-format
-msgid ""
-"The selected Field to Sort '%s' doesn't belong to the selected model '%s'."
-msgstr "选定的要排序 \"%s\" 的字段不属于所选模型 \"%s\"。"
+#, python-format
+msgid "The selected Field to Sort '%s' doesn't belong to the selected model '%s'."
+msgstr ""
 
 #. module: mass_sorting
 #: code:addons/mass_sorting/models/mass_sort_config.py:55
 #, python-format
 msgid "The selected Field to Sort doesn't not have 'sequence' field defined."
-msgstr "所选择的要排序的字段没有定义'sequence'字段。"
+msgstr ""
 
 #. module: mass_sorting
 #: code:addons/mass_sorting/models/mass_sort_config_line.py:30
 #, python-format
-msgid ""
-"The selected criteria '%s' must belong to the model of the Field to Sort."
-msgstr "所选条件'%s'必须属于要排序的字段的模型。"
+msgid "The selected criteria '%s' must belong to the model of the Field to Sort."
+msgstr ""
 
 #. module: mass_sorting
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line_config_id
-#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line_wizard_id
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_config_line__config_id
+#: model:ir.model.fields,field_description:mass_sorting.field_mass_sort_wizard_line__wizard_id
 msgid "Wizard"
 msgstr "向导"
 
 #. module: mass_sorting
 #: code:addons/mass_sorting/models/mass_sort_config.py:72
 #, python-format
-msgid ""
-"You have to define field(s) in 'Sorting Criterias' if you uncheck 'Allow "
-"Custom Setting'."
+msgid "You have to define field(s) in 'Sorting Criterias' if you uncheck 'Allow Custom Setting'."
 msgstr "如果您取消选中“允许自定义设置”，则必须在“排序条件”中定义字段。"
 
 #. module: mass_sorting
@@ -263,30 +246,26 @@ msgid ""
 "\n"
 "The sorting will be done by %(field_list)s."
 msgstr ""
-"您将对%(qty)d %(model)s的字段 '%(field)s' 进行排序。 \n"
+"You will sort the field '%(field)s' for %(qty)d %(model)s(s). \n"
 "\n"
-"排序将通过%(field_list)s来完成。"
+"The sorting will be done by %(field_list)s."
 
 #. module: mass_sorting
 #: model:ir.model,name:mass_sorting.model_mass_sort_config
-#, fuzzy
 msgid "mass.sort.config"
 msgstr "mass.sort.config"
 
 #. module: mass_sorting
 #: model:ir.model,name:mass_sorting.model_mass_sort_config_line
-#, fuzzy
 msgid "mass.sort.config.line"
 msgstr "mass.sort.config.line"
 
 #. module: mass_sorting
 #: model:ir.model,name:mass_sorting.model_mass_sort_wizard
-#, fuzzy
 msgid "mass.sort.wizard"
 msgstr "mass.sort.wizard"
 
 #. module: mass_sorting
 #: model:ir.model,name:mass_sorting.model_mass_sort_wizard_line
-#, fuzzy
 msgid "mass.sort.wizard.line"
 msgstr "mass.sort.wizard.line"

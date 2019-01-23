@@ -73,10 +73,8 @@
         <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem id="menu_mass_editing" name="Mass Editing"
-        parent="base.menu_administration" sequence="6"/>
 
-    <menuitem id="menu_mass_object_view" action="action_mass_object"
-        parent="menu_mass_editing"/>
+    <menuitem id="menu_mass_object_view" name="Mass Editing" action="action_mass_object"
+        parent="base.menu_administration"/>
 
 </odoo>

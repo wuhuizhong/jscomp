@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 04:55+0000\n"
-"PO-Revision-Date: 2018-12-16 12:57+0800\n"
+"POT-Creation-Date: 2019-01-23 05:15+0000\n"
+"PO-Revision-Date: 2019-01-23 13:17+0800\n"
 "Last-Translator: John Lin <linyinhuan@139.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -15,18 +15,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: zh_CN\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. module: app_web_enterprise
 #. openerp-web
 #: code:addons/app_web_enterprise/static/src/xml/base.xml:6
 #, python-format
 msgid "Logo"
-msgstr "Logo"
+msgstr "商标"
 
 #. module: app_web_enterprise
 #. openerp-web
 #: code:addons/app_web_enterprise/static/src/xml/base.xml:12
 #, python-format
 msgid "dropdown-toggle o_menu_header_lvl_1"
-msgstr "dropdown-toggle o_menu_header_lvl_1"
+msgstr "下拉式切换 o_menu_header_lvl_1"
