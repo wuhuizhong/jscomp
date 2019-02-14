@@ -174,14 +174,9 @@
         </record>
 
         <menuitem
-                id="base.menu_jscomp_group"
+                id="menu_jscomp_theme_config"
                 name="Customize"
                 parent="base.menu_administration"
-                sequence="1"
-                groups="base.group_system"/>
-        <menuitem
-                id="menu_jscomp_theme_config"
-                parent="base.menu_jscomp_group"
                 sequence="1"
                 action="action_jscomp_theme_config"
                 groups="base.group_system"/>

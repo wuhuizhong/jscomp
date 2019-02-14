@@ -2,7 +2,7 @@
 <!-- Copyright 2014 ABF OSIELL <http://osiell.com>
      License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
 <odoo>
-
+<data>
 <record id="view_res_users_form_inherit" model="ir.ui.view">
     <field name="name">res.users.form.inherit</field>
     <field name="model">res.users</field>
@@ -33,5 +33,5 @@
         </field>
     </field>
 </record>
-
+</data>
 </odoo>

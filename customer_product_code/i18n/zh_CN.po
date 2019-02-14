@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-22 01:06+0000\n"
-"PO-Revision-Date: 2019-01-22 09:13+0800\n"
+"POT-Creation-Date: 2019-02-13 08:54+0000\n"
+"PO-Revision-Date: 2019-02-13 16:59+0800\n"
 "Last-Translator: John Lin <linyinhuan@139.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "创建人"
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_customer_code__create_date
 msgid "Created on"
-msgstr "创建日期"
+msgstr "创建时间"
 
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_customer_code__partner_id
@@ -46,18 +46,18 @@ msgstr "客户"
 #. module: customer_product_code
 #: model_terms:ir.ui.view,arch_db:customer_product_code.product_normal_form_inh_product_customer_code_01
 msgid "Customer Code"
-msgstr "客户代码"
+msgstr "客户编码"
 
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_product__product_customer_code_ids
 #: model:ir.model.fields,field_description:customer_product_code.field_product_template__product_customer_code_ids
 msgid "Customer Codes"
-msgstr "客户代码"
+msgstr "客户编码"
 
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_customer_code__product_code
 msgid "Customer Product Code"
-msgstr "客户货号"
+msgstr "客方货号"
 
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_customer_code__product_name
@@ -92,17 +92,17 @@ msgstr "内部参考"
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_customer_code____last_update
 msgid "Last Modified on"
-msgstr "最后修改日"
+msgstr "最近修改日期"
 
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_customer_code__write_uid
 msgid "Last Updated by"
-msgstr "最后更新者"
+msgstr "最近更新人"
 
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_customer_code__write_date
 msgid "Last Updated on"
-msgstr "最后更新时间"
+msgstr "最近更新日期"
 
 #. module: customer_product_code
 #: model_terms:ir.ui.view,arch_db:customer_product_code.view_product_customer_code_filter
@@ -118,7 +118,7 @@ msgstr "产品"
 #. module: customer_product_code
 #: sql_constraint:product.customer.code:0
 msgid "Product Code of customer must be unique"
-msgstr "客户货号必须唯一"
+msgstr "客方货号必须唯一"
 
 #. module: customer_product_code
 #: model:ir.actions.act_window,name:customer_product_code.action_product_customer_code_tree
@@ -128,7 +128,7 @@ msgstr "客户货号必须唯一"
 #: model_terms:ir.ui.view,arch_db:customer_product_code.view_product_customer_code_form
 #: model_terms:ir.ui.view,arch_db:customer_product_code.view_product_customer_code_tree
 msgid "Product Customer Code"
-msgstr "客户货号"
+msgstr "客方货号"
 
 #. module: customer_product_code
 #: model:ir.model,name:customer_product_code.model_product_template
@@ -152,7 +152,7 @@ msgid ""
 "This\n"
 "        customer's product code will be used when searching into a request for\n"
 "        quotation."
-msgstr "在搜索询价时, 将使用此客户货号。"
+msgstr "在搜索询价时, 将使用此客方货号。"
 
 #. module: customer_product_code
 #: model:ir.model.fields,help:customer_product_code.field_product_customer_code__product_name
