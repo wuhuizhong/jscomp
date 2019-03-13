@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_requested_date
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-28 22:54+0000\n"
+"PO-Revision-Date: 2019-03-11 17:15+0800\n"
+"Last-Translator: John Lin <linyinhuan@139.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. module: sale_requested_date
+#: model:ir.model.fields,field_description:sale_requested_date.field_sale_order_commitment_date
+msgid "Commitment Date"
+msgstr "预计完工日期"
+
+#. module: sale_requested_date
+#: model:ir.model.fields,help:sale_requested_date.field_sale_order_requested_date
+msgid ""
+"Date by which the customer has requested the items to be delivered.\n"
+"When this Order gets confirmed, the Delivery Order's expected date will be computed based on this date and the Company's Security Delay.\n"
+"Leave this field empty if you want the Delivery Order to be processed as soon as possible. In that case the expected date will be computed using the default method: based on the Product Lead Times and the Company's Security Delay."
+msgstr ""
+"客户要求日期。\n"
+"订单或合同中定义的，对于产品、系统或服务需要交货日期。\n"
+"如果客户没有要求，请留空，则会采用系统默认：基于产品的发货时间和公司的安全天数计算。"
+
+#. module: sale_requested_date
+#: model:ir.model.fields,help:sale_requested_date.field_sale_order_commitment_date
+msgid "Date by which the products are sure to be delivered. This is a date that you can promise to the customer, based on the Product Lead Times."
+msgstr "确认的发货日期。该日期是基于存货的各种提前期计算出来的承诺给客户的发货日期。"
+
+#. module: sale_requested_date
+#: model:ir.model.fields,help:sale_requested_date.field_sale_order_effective_date
+msgid "Date on which the first Delivery Order was created."
+msgstr "首个交货单的创建日期。"
+
+#. module: sale_requested_date
+#: model:ir.model.fields,field_description:sale_requested_date.field_sale_order_requested_date
+msgid "Delivery Date"
+msgstr "交货日期"
+
+#. module: sale_requested_date
+#: model:ir.model.fields,field_description:sale_requested_date.field_sale_order_effective_date
+msgid "Effective Date"
+msgstr "实际日期"
+
+#. module: sale_requested_date
+#: model:ir.model,name:sale_requested_date.model_sale_order
+msgid "Quotation"
+msgstr "报价单"
+
+#. module: sale_requested_date
+#: code:addons/sale_requested_date/models/sale_order.py:57
+#, python-format
+msgid "Requested date is too soon!"
+msgstr "要求日期太近了！"
+
+#. module: sale_requested_date
+#: model:ir.model,name:sale_requested_date.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "销售订单明细"
+
+#. module: sale_requested_date
+#: code:addons/sale_requested_date/models/sale_order.py:58
+#, python-format
+msgid "The date requested by the customer is sooner than the commitment date. You may be unable to honor the customer's request."
+msgstr "客户要求的日期早于预计完工日期。 您可能无法满足客户的要求。"
