@@ -6,15 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-13 08:54+0000\n"
-"PO-Revision-Date: 2019-02-13 16:59+0800\n"
+"POT-Creation-Date: 2019-02-28 07:20+0000\n"
+"PO-Revision-Date: 2019-02-28 15:23+0800\n"
 "Last-Translator: John Lin <linyinhuan@139.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: zh_CN\n"
+"Language: zh\n"
 "X-Generator: Poedit 2.2.1\n"
 
 #. module: customer_product_code
@@ -62,12 +62,12 @@ msgstr "客方货号"
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_customer_code__product_name
 msgid "Customer Product Name"
-msgstr "客户产品名称"
+msgstr "客方产品名称"
 
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_product__partner_ref
 msgid "Customer ref"
-msgstr "客户编号"
+msgstr "客户参考"
 
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_customer_code__display_name
@@ -92,17 +92,17 @@ msgstr "内部参考"
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_customer_code____last_update
 msgid "Last Modified on"
-msgstr "最近修改日期"
+msgstr "最后修改日"
 
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_customer_code__write_uid
 msgid "Last Updated by"
-msgstr "最近更新人"
+msgstr "最后更新者"
 
 #. module: customer_product_code
 #: model:ir.model.fields,field_description:customer_product_code.field_product_customer_code__write_date
 msgid "Last Updated on"
-msgstr "最近更新日期"
+msgstr "最后更新时间"
 
 #. module: customer_product_code
 #: model_terms:ir.ui.view,arch_db:customer_product_code.view_product_customer_code_filter
